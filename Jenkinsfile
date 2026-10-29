@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "niharpatel0011/assignment"
+        IMAGE_NAME = "niharpatel0011/jenkins_CICD"
         TAG = "${BUILD_NUMBER}"
     }
 
